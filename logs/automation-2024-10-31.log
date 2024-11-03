@@ -1,0 +1,536 @@
+18:41:03.222 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/sharedStrings.xml'
+18:41:03.289 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/styles.xml'
+18:41:03.291 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/workbook.xml'
+18:41:03.294 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:41:03.297 [TestNG-test=Cucumber Tests-1] DEBUG - Save content types part
+18:41:03.299 [TestNG-test=Cucumber Tests-1] DEBUG - Save package relationships
+18:41:03.304 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'docProps/app.xml'
+18:41:03.305 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'docProps/core.xml'
+18:41:03.311 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/sharedStrings.xml'
+18:41:03.312 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/styles.xml'
+18:41:03.312 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/workbook.xml'
+18:41:03.315 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:41:05.813 [TestNG-test=Cucumber Tests-3] DEBUG - Save core properties part
+18:41:05.814 [TestNG-test=Cucumber Tests-3] DEBUG - Save content types part
+18:41:05.816 [TestNG-test=Cucumber Tests-3] DEBUG - Save package relationships
+18:41:05.820 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'docProps/app.xml'
+18:41:05.821 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'docProps/core.xml'
+18:41:05.825 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/sharedStrings.xml'
+18:41:05.825 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/styles.xml'
+18:41:05.827 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/workbook.xml'
+18:41:05.831 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:41:05.838 [TestNG-test=Cucumber Tests-3] DEBUG - Save content types part
+18:41:05.841 [TestNG-test=Cucumber Tests-3] DEBUG - Save package relationships
+18:41:05.843 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'docProps/app.xml'
+18:41:05.843 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'docProps/core.xml'
+18:41:05.846 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/sharedStrings.xml'
+18:41:05.847 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/styles.xml'
+18:41:05.847 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/workbook.xml'
+18:41:05.853 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:41:15.284 [TestNG-test=Cucumber Tests-2] DEBUG - Save core properties part
+18:41:15.285 [TestNG-test=Cucumber Tests-2] DEBUG - Save content types part
+18:41:15.288 [TestNG-test=Cucumber Tests-2] DEBUG - Save package relationships
+18:41:15.290 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'docProps/app.xml'
+18:41:15.292 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'docProps/core.xml'
+18:41:15.296 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/sharedStrings.xml'
+18:41:15.297 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/styles.xml'
+18:41:15.298 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/workbook.xml'
+18:41:15.301 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:41:15.305 [TestNG-test=Cucumber Tests-2] DEBUG - Save content types part
+18:41:15.307 [TestNG-test=Cucumber Tests-2] DEBUG - Save package relationships
+18:41:15.310 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'docProps/app.xml'
+18:41:15.310 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'docProps/core.xml'
+18:41:15.314 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/sharedStrings.xml'
+18:41:15.314 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/styles.xml'
+18:41:15.315 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/workbook.xml'
+18:41:15.319 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:41:16.351 [TestNG-test=Cucumber Tests-4] DEBUG - Save core properties part
+18:41:16.351 [TestNG-test=Cucumber Tests-4] DEBUG - Save content types part
+18:41:16.352 [TestNG-test=Cucumber Tests-4] DEBUG - Save package relationships
+18:41:16.353 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'docProps/app.xml'
+18:41:16.353 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'docProps/core.xml'
+18:41:16.354 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/sharedStrings.xml'
+18:41:16.355 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/styles.xml'
+18:41:16.355 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/workbook.xml'
+18:41:16.356 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:41:16.356 [TestNG-test=Cucumber Tests-4] DEBUG - Save content types part
+18:41:16.358 [TestNG-test=Cucumber Tests-4] DEBUG - Save package relationships
+18:41:16.360 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'docProps/app.xml'
+18:41:16.360 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'docProps/core.xml'
+18:41:16.363 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/sharedStrings.xml'
+18:41:16.363 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/styles.xml'
+18:41:16.364 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/workbook.xml'
+18:41:16.366 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:55:18.876 [TestNG-test=Cucumber Tests-3] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:55:18.897 [TestNG-test=Cucumber Tests-3] DEBUG - Parsing relationship: /_rels/.rels
+18:55:19.167 [TestNG-test=Cucumber Tests-1] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+18:55:19.176 [TestNG-test=Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:55:19.179 [TestNG-test=Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:55:19.180 [TestNG-test=Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:55:19.181 [TestNG-test=Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:55:19.184 [TestNG-test=Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:55:19.224 [TestNG-test=Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:55:19.231 [TestNG-test=Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:55:19.241 [TestNG-test=Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:55:19.245 [TestNG-test=Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:55:19.246 [TestNG-test=Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:55:19.249 [TestNG-test=Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:55:19.257 [TestNG-test=Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:55:19.266 [TestNG-test=Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+18:55:19.400 [TestNG-test=Cucumber Tests-1] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+18:55:19.406 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle themefd26doctype
+18:55:19.406 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctworkbook83c3type
+18:55:19.536 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctworkbookpr03a5type
+18:55:19.549 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctbookviewsb864type
+18:55:19.551 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle stylesheet5d8bdoctype
+18:55:19.558 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctbookviewf677type
+18:55:19.564 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctstylesheet4257type
+18:55:19.575 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctfonts6623type
+18:55:19.576 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctsheets49fdtype
+18:55:19.581 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctfont14d8type
+18:55:19.582 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle propertiesee84doctype
+18:55:19.612 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctproperties3f10type
+18:55:19.625 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctfills2c6ftype
+18:55:19.629 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle properties288cdoctype
+18:55:19.632 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctfill550ctype
+18:55:19.632 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctproperties2c18type
+18:55:19.642 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctborders0d66type
+18:55:19.649 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle sstf81fdoctype
+18:55:19.649 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctborderf935type
+18:55:19.655 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctsst44f3type
+18:55:19.658 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctcellxfs1322type
+18:55:19.667 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctfontsizeb3b9type
+18:55:19.690 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctxf97f7type
+18:55:19.694 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctcolord2c2type
+18:55:19.698 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctcellstylexfsa81ftype
+18:55:19.699 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctfontname2dc3type
+18:55:19.707 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle stxstringf179type
+18:55:19.708 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctdxfsb26atype
+18:55:19.712 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle cttablestyles872ftype
+18:55:19.713 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctfontfamily685ctype
+18:55:19.716 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle stfontfamily9c6ctype
+18:55:19.727 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctfontschemebf5dtype
+18:55:19.741 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle stfontschemef36dtype
+18:55:19.744 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctrsta472type
+18:55:19.749 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctpatternfill7452type
+18:55:19.765 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle stpatterntype7939type
+18:55:19.773 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctborderpre497type
+18:55:19.779 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle stnumfmtid76fbtype
+18:55:19.782 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle stfontid9d63type
+18:55:19.789 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle stfillida097type
+18:55:19.792 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle stborderid1a80type
+18:55:19.796 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle stcellstylexfid70c7type
+18:55:19.798 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle workbookec17doctype
+18:55:19.811 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctsheet4dbetype
+18:55:19.816 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle strelationshipid1e94type
+18:55:19.824 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctworksheet530dtype
+18:55:19.826 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle worksheetf539doctype
+18:55:19.836 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctsheetformatprdef7type
+18:55:19.836 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctsheetdata8408type
+18:55:19.845 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctrowdd39type
+18:55:19.851 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctsheetviewsb918type
+18:55:19.859 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctcell842btype
+18:55:19.862 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctsheetview0f43type
+18:55:19.873 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctsheetdimensiond310type
+18:55:19.879 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle stref90a2type
+18:55:19.879 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle stcellrefe4e0type
+18:55:19.882 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctpagemargins5455type
+18:55:19.909 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctcols627ctype
+18:55:19.924 [TestNG-test=Cucumber Tests-3] TRACE - Resolving type for handle ctcola95ftype
+18:55:19.928 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle stcelltypebf95type
+18:55:19.988 [TestNG-test=Cucumber Tests-1] TRACE - Resolving type for handle ctnumfmtsb58btype
+18:55:20.031 [TestNG-test=Cucumber Tests-1] DEBUG - Save core properties part
+18:55:20.032 [TestNG-test=Cucumber Tests-1] DEBUG - Save content types part
+18:55:20.265 [TestNG-test=Cucumber Tests-1] DEBUG - Save package relationships
+18:55:20.281 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'docProps/app.xml'
+18:55:20.282 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'docProps/core.xml'
+18:55:20.295 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/sharedStrings.xml'
+18:55:20.296 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/styles.xml'
+18:55:20.297 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/workbook.xml'
+18:55:20.300 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:55:20.309 [TestNG-test=Cucumber Tests-1] DEBUG - Save content types part
+18:55:20.313 [TestNG-test=Cucumber Tests-1] DEBUG - Save package relationships
+18:55:20.316 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'docProps/app.xml'
+18:55:20.323 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'docProps/core.xml'
+18:55:20.333 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/sharedStrings.xml'
+18:55:20.333 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/styles.xml'
+18:55:20.334 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/workbook.xml'
+18:55:20.345 [TestNG-test=Cucumber Tests-1] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:55:22.797 [TestNG-test=Cucumber Tests-3] DEBUG - Save core properties part
+18:55:22.797 [TestNG-test=Cucumber Tests-3] DEBUG - Save content types part
+18:55:22.800 [TestNG-test=Cucumber Tests-3] DEBUG - Save package relationships
+18:55:22.803 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'docProps/app.xml'
+18:55:22.804 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'docProps/core.xml'
+18:55:22.807 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/sharedStrings.xml'
+18:55:22.807 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/styles.xml'
+18:55:22.807 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/workbook.xml'
+18:55:22.810 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:55:22.812 [TestNG-test=Cucumber Tests-3] DEBUG - Save content types part
+18:55:22.816 [TestNG-test=Cucumber Tests-3] DEBUG - Save package relationships
+18:55:22.822 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'docProps/app.xml'
+18:55:22.822 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'docProps/core.xml'
+18:55:22.826 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/sharedStrings.xml'
+18:55:22.829 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/styles.xml'
+18:55:22.829 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/workbook.xml'
+18:55:22.838 [TestNG-test=Cucumber Tests-3] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:55:24.758 [TestNG-test=Cucumber Tests-2] DEBUG - Save core properties part
+18:55:24.758 [TestNG-test=Cucumber Tests-2] DEBUG - Save content types part
+18:55:24.761 [TestNG-test=Cucumber Tests-2] DEBUG - Save package relationships
+18:55:24.764 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'docProps/app.xml'
+18:55:24.764 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'docProps/core.xml'
+18:55:24.769 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/sharedStrings.xml'
+18:55:24.770 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/styles.xml'
+18:55:24.771 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/workbook.xml'
+18:55:24.773 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:55:24.775 [TestNG-test=Cucumber Tests-2] DEBUG - Save content types part
+18:55:24.777 [TestNG-test=Cucumber Tests-2] DEBUG - Save package relationships
+18:55:24.780 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'docProps/app.xml'
+18:55:24.780 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'docProps/core.xml'
+18:55:24.785 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/sharedStrings.xml'
+18:55:24.786 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/styles.xml'
+18:55:24.786 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/workbook.xml'
+18:55:24.790 [TestNG-test=Cucumber Tests-2] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:55:25.705 [TestNG-test=Cucumber Tests-4] DEBUG - Save core properties part
+18:55:25.706 [TestNG-test=Cucumber Tests-4] DEBUG - Save content types part
+18:55:25.707 [TestNG-test=Cucumber Tests-4] DEBUG - Save package relationships
+18:55:25.708 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'docProps/app.xml'
+18:55:25.708 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'docProps/core.xml'
+18:55:25.709 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/sharedStrings.xml'
+18:55:25.709 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/styles.xml'
+18:55:25.710 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/workbook.xml'
+18:55:25.711 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:55:25.713 [TestNG-test=Cucumber Tests-4] DEBUG - Save content types part
+18:55:25.714 [TestNG-test=Cucumber Tests-4] DEBUG - Save package relationships
+18:55:25.715 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'docProps/app.xml'
+18:55:25.715 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'docProps/core.xml'
+18:55:25.718 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/sharedStrings.xml'
+18:55:25.719 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/styles.xml'
+18:55:25.719 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/workbook.xml'
+18:55:25.720 [TestNG-test=Cucumber Tests-4] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:58:56.403 [TestNG-test-Cucumber Tests-3] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:58:56.514 [TestNG-test-Cucumber Tests-3] DEBUG - Parsing relationship: /_rels/.rels
+18:58:57.050 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+18:58:57.058 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:58:57.063 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:58:57.065 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:58:57.068 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:58:57.072 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:58:57.116 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:58:57.118 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:58:57.130 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:58:57.132 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:58:57.133 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:58:57.140 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:58:57.144 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:58:57.147 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+18:58:57.298 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+18:58:57.300 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle themefd26doctype
+18:58:57.300 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctworkbook83c3type
+18:58:57.486 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctworkbookpr03a5type
+18:58:57.500 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle stylesheet5d8bdoctype
+18:58:57.503 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctbookviewsb864type
+18:58:57.507 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctbookviewf677type
+18:58:57.512 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctstylesheet4257type
+18:58:57.517 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctfonts6623type
+18:58:57.522 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctfont14d8type
+18:58:57.523 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsheets49fdtype
+18:58:57.533 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle propertiesee84doctype
+18:58:57.535 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctfills2c6ftype
+18:58:57.536 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctproperties3f10type
+18:58:57.540 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctfill550ctype
+18:58:57.552 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctborders0d66type
+18:58:57.555 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle properties288cdoctype
+18:58:57.558 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctborderf935type
+18:58:57.558 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctproperties2c18type
+18:58:57.565 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctcellxfs1322type
+18:58:57.571 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle sstf81fdoctype
+18:58:57.572 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctxf97f7type
+18:58:57.574 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsst44f3type
+18:58:57.581 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctcellstylexfsa81ftype
+18:58:57.585 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctfontsizeb3b9type
+18:58:57.586 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctdxfsb26atype
+18:58:57.590 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle cttablestyles872ftype
+18:58:57.591 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctcolord2c2type
+18:58:57.601 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctfontname2dc3type
+18:58:57.605 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stxstringf179type
+18:58:57.614 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctfontfamily685ctype
+18:58:57.618 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stfontfamily9c6ctype
+18:58:57.619 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctrsta472type
+18:58:57.637 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctfontschemebf5dtype
+18:58:57.654 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stfontschemef36dtype
+18:58:57.662 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctpatternfill7452type
+18:58:57.671 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stpatterntype7939type
+18:58:57.674 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctborderpre497type
+18:58:57.678 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle workbookec17doctype
+18:58:57.684 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stnumfmtid76fbtype
+18:58:57.687 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctsheet4dbetype
+18:58:57.688 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stfontid9d63type
+18:58:57.690 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stfillida097type
+18:58:57.695 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle strelationshipid1e94type
+18:58:57.699 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stborderid1a80type
+18:58:57.700 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle worksheetf539doctype
+18:58:57.704 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stcellstylexfid70c7type
+18:58:57.711 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctworksheet530dtype
+18:58:57.720 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctsheetdata8408type
+18:58:57.721 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsheetformatprdef7type
+18:58:57.730 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctrowdd39type
+18:58:57.731 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsheetviewsb918type
+18:58:57.741 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsheetview0f43type
+18:58:57.748 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctcell842btype
+18:58:57.753 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsheetdimensiond310type
+18:58:57.757 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stref90a2type
+18:58:57.764 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctpagemargins5455type
+18:58:57.766 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle stcellrefe4e0type
+18:58:57.779 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctcols627ctype
+18:58:57.791 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctcola95ftype
+18:58:57.799 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stcelltypebf95type
+18:58:57.857 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctnumfmtsb58btype
+18:58:57.908 [TestNG-test-Cucumber Tests-1] DEBUG - Save core properties part
+18:58:57.910 [TestNG-test-Cucumber Tests-1] DEBUG - Save content types part
+18:58:58.083 [TestNG-test-Cucumber Tests-1] DEBUG - Save package relationships
+18:58:58.096 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'docProps/app.xml'
+18:58:58.097 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'docProps/core.xml'
+18:58:58.105 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/sharedStrings.xml'
+18:58:58.106 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/styles.xml'
+18:58:58.107 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/workbook.xml'
+18:58:58.112 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:58:58.116 [TestNG-test-Cucumber Tests-1] DEBUG - Save content types part
+18:58:58.119 [TestNG-test-Cucumber Tests-1] DEBUG - Save package relationships
+18:58:58.121 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'docProps/app.xml'
+18:58:58.122 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'docProps/core.xml'
+18:58:58.129 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/sharedStrings.xml'
+18:58:58.130 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/styles.xml'
+18:58:58.131 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/workbook.xml'
+18:58:58.138 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:59:00.453 [TestNG-test-Cucumber Tests-3] DEBUG - Save core properties part
+18:59:00.453 [TestNG-test-Cucumber Tests-3] DEBUG - Save content types part
+18:59:00.456 [TestNG-test-Cucumber Tests-3] DEBUG - Save package relationships
+18:59:00.458 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'docProps/app.xml'
+18:59:00.459 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'docProps/core.xml'
+18:59:00.463 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/sharedStrings.xml'
+18:59:00.464 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/styles.xml'
+18:59:00.464 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/workbook.xml'
+18:59:00.467 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:59:00.472 [TestNG-test-Cucumber Tests-3] DEBUG - Save content types part
+18:59:00.480 [TestNG-test-Cucumber Tests-3] DEBUG - Save package relationships
+18:59:00.484 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'docProps/app.xml'
+18:59:00.487 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'docProps/core.xml'
+18:59:00.494 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/sharedStrings.xml'
+18:59:00.494 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/styles.xml'
+18:59:00.495 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/workbook.xml'
+18:59:00.498 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:59:05.392 [TestNG-test-Cucumber Tests-4] DEBUG - Save core properties part
+18:59:05.393 [TestNG-test-Cucumber Tests-4] DEBUG - Save content types part
+18:59:05.393 [TestNG-test-Cucumber Tests-2] DEBUG - Save core properties part
+18:59:05.393 [TestNG-test-Cucumber Tests-2] DEBUG - Save content types part
+18:59:05.394 [TestNG-test-Cucumber Tests-2] DEBUG - Save package relationships
+18:59:05.395 [TestNG-test-Cucumber Tests-4] DEBUG - Save package relationships
+18:59:05.396 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'docProps/app.xml'
+18:59:05.396 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'docProps/core.xml'
+18:59:05.396 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'docProps/app.xml'
+18:59:05.396 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'docProps/core.xml'
+18:59:05.398 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/sharedStrings.xml'
+18:59:05.398 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/sharedStrings.xml'
+18:59:05.398 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/styles.xml'
+18:59:05.398 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/styles.xml'
+18:59:05.398 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/workbook.xml'
+18:59:05.399 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/workbook.xml'
+18:59:05.400 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:59:05.400 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:59:05.401 [TestNG-test-Cucumber Tests-2] DEBUG - Save content types part
+18:59:05.402 [TestNG-test-Cucumber Tests-4] DEBUG - Save content types part
+18:59:05.404 [TestNG-test-Cucumber Tests-4] DEBUG - Save package relationships
+18:59:05.404 [TestNG-test-Cucumber Tests-2] DEBUG - Save package relationships
+18:59:05.408 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'docProps/app.xml'
+18:59:05.408 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'docProps/app.xml'
+18:59:05.409 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'docProps/core.xml'
+18:59:05.409 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'docProps/core.xml'
+18:59:05.411 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/sharedStrings.xml'
+18:59:05.411 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/sharedStrings.xml'
+18:59:05.411 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/styles.xml'
+18:59:05.411 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/styles.xml'
+18:59:05.411 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/workbook.xml'
+18:59:05.411 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/workbook.xml'
+18:59:05.413 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+18:59:05.413 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+19:00:30.426 [TestNG-test-Cucumber Tests-3] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+19:00:30.527 [TestNG-test-Cucumber Tests-3] DEBUG - Parsing relationship: /_rels/.rels
+19:00:30.956 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+19:00:30.963 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+19:00:30.964 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+19:00:30.966 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+19:00:30.971 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+19:00:30.976 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+19:00:31.017 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+19:00:31.021 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+19:00:31.029 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+19:00:31.034 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+19:00:31.042 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+19:00:31.045 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+19:00:31.047 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+19:00:31.050 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+19:00:31.174 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+19:00:31.176 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle themefd26doctype
+19:00:31.177 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctworkbook83c3type
+19:00:31.292 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctworkbookpr03a5type
+19:00:31.311 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle stylesheet5d8bdoctype
+19:00:31.312 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctbookviewsb864type
+19:00:31.316 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctbookviewf677type
+19:00:31.323 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctstylesheet4257type
+19:00:31.332 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctfonts6623type
+19:00:31.343 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctfont14d8type
+19:00:31.342 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsheets49fdtype
+19:00:31.350 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle propertiesee84doctype
+19:00:31.355 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctfills2c6ftype
+19:00:31.355 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctproperties3f10type
+19:00:31.361 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctfill550ctype
+19:00:31.365 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle properties288cdoctype
+19:00:31.374 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctborders0d66type
+19:00:31.374 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctproperties2c18type
+19:00:31.380 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctborderf935type
+19:00:31.390 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctcellxfs1322type
+19:00:31.392 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle sstf81fdoctype
+19:00:31.394 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsst44f3type
+19:00:31.396 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctxf97f7type
+19:00:31.407 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctfontsizeb3b9type
+19:00:31.414 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctcellstylexfsa81ftype
+19:00:31.425 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctcolord2c2type
+19:00:31.426 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctdxfsb26atype
+19:00:31.430 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctfontname2dc3type
+19:00:31.430 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle cttablestyles872ftype
+19:00:31.433 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stxstringf179type
+19:00:31.443 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctfontfamily685ctype
+19:00:31.447 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stfontfamily9c6ctype
+19:00:31.458 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctrsta472type
+19:00:31.461 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctfontschemebf5dtype
+19:00:31.466 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stfontschemef36dtype
+19:00:31.479 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctpatternfill7452type
+19:00:31.489 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stpatterntype7939type
+19:00:31.493 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctborderpre497type
+19:00:31.500 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stnumfmtid76fbtype
+19:00:31.513 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stfontid9d63type
+19:00:31.515 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle workbookec17doctype
+19:00:31.516 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stfillida097type
+19:00:31.526 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stborderid1a80type
+19:00:31.530 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stcellstylexfid70c7type
+19:00:31.530 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctsheet4dbetype
+19:00:31.539 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle strelationshipid1e94type
+19:00:31.541 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle worksheetf539doctype
+19:00:31.545 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctworksheet530dtype
+19:00:31.560 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctsheetdata8408type
+19:00:31.560 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsheetformatprdef7type
+19:00:31.565 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctrowdd39type
+19:00:31.575 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsheetviewsb918type
+19:00:31.580 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsheetview0f43type
+19:00:31.581 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctcell842btype
+19:00:31.595 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsheetdimensiond310type
+19:00:31.597 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stref90a2type
+19:00:31.600 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctpagemargins5455type
+19:00:31.604 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle stcellrefe4e0type
+19:00:31.609 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctcols627ctype
+19:00:31.615 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctcola95ftype
+19:00:31.618 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle stcelltypebf95type
+19:00:31.674 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctnumfmtsb58btype
+19:00:31.708 [TestNG-test-Cucumber Tests-1] DEBUG - Save core properties part
+19:00:31.709 [TestNG-test-Cucumber Tests-1] DEBUG - Save content types part
+19:00:31.925 [TestNG-test-Cucumber Tests-1] DEBUG - Save package relationships
+19:00:31.937 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'docProps/app.xml'
+19:00:31.938 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'docProps/core.xml'
+19:00:31.945 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/sharedStrings.xml'
+19:00:31.946 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/styles.xml'
+19:00:31.946 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/workbook.xml'
+19:00:31.950 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+19:00:31.962 [TestNG-test-Cucumber Tests-1] DEBUG - Save content types part
+19:00:31.983 [TestNG-test-Cucumber Tests-1] DEBUG - Save package relationships
+19:00:31.989 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'docProps/app.xml'
+19:00:31.991 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'docProps/core.xml'
+19:00:32.018 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/sharedStrings.xml'
+19:00:32.020 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/styles.xml'
+19:00:32.023 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/workbook.xml'
+19:00:32.028 [TestNG-test-Cucumber Tests-1] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+19:00:34.623 [TestNG-test-Cucumber Tests-3] DEBUG - Save core properties part
+19:00:34.623 [TestNG-test-Cucumber Tests-3] DEBUG - Save content types part
+19:00:34.626 [TestNG-test-Cucumber Tests-3] DEBUG - Save package relationships
+19:00:34.629 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'docProps/app.xml'
+19:00:34.629 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'docProps/core.xml'
+19:00:34.633 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/sharedStrings.xml'
+19:00:34.634 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/styles.xml'
+19:00:34.637 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/workbook.xml'
+19:00:34.641 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+19:00:34.645 [TestNG-test-Cucumber Tests-3] DEBUG - Save content types part
+19:00:34.654 [TestNG-test-Cucumber Tests-3] DEBUG - Save package relationships
+19:00:34.658 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'docProps/app.xml'
+19:00:34.659 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'docProps/core.xml'
+19:00:34.662 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/sharedStrings.xml'
+19:00:34.663 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/styles.xml'
+19:00:34.664 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/workbook.xml'
+19:00:34.669 [TestNG-test-Cucumber Tests-3] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+19:00:41.404 [TestNG-test-Cucumber Tests-4] DEBUG - Save core properties part
+19:00:41.404 [TestNG-test-Cucumber Tests-4] DEBUG - Save content types part
+19:00:41.407 [TestNG-test-Cucumber Tests-4] DEBUG - Save package relationships
+19:00:41.409 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'docProps/app.xml'
+19:00:41.410 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'docProps/core.xml'
+19:00:41.412 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/sharedStrings.xml'
+19:00:41.413 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/styles.xml'
+19:00:41.413 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/workbook.xml'
+19:00:41.418 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+19:00:41.423 [TestNG-test-Cucumber Tests-4] DEBUG - Save content types part
+19:00:41.426 [TestNG-test-Cucumber Tests-4] DEBUG - Save package relationships
+19:00:41.429 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'docProps/app.xml'
+19:00:41.429 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'docProps/core.xml'
+19:00:41.432 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/sharedStrings.xml'
+19:00:41.436 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/styles.xml'
+19:00:41.437 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/workbook.xml'
+19:00:41.440 [TestNG-test-Cucumber Tests-4] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+19:00:43.358 [TestNG-test-Cucumber Tests-2] DEBUG - Save core properties part
+19:00:43.358 [TestNG-test-Cucumber Tests-2] DEBUG - Save content types part
+19:00:43.361 [TestNG-test-Cucumber Tests-2] DEBUG - Save package relationships
+19:00:43.363 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'docProps/app.xml'
+19:00:43.364 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'docProps/core.xml'
+19:00:43.369 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/sharedStrings.xml'
+19:00:43.369 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/styles.xml'
+19:00:43.370 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/workbook.xml'
+19:00:43.372 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+19:00:43.373 [TestNG-test-Cucumber Tests-2] DEBUG - Save content types part
+19:00:43.376 [TestNG-test-Cucumber Tests-2] DEBUG - Save package relationships
+19:00:43.379 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'docProps/app.xml'
+19:00:43.379 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'docProps/core.xml'
+19:00:43.387 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/sharedStrings.xml'
+19:00:43.387 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/styles.xml'
+19:00:43.388 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/workbook.xml'
+19:00:43.390 [TestNG-test-Cucumber Tests-2] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+19:10:13.967 [TestNG-test-Cucumber Tests-3] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+19:10:13.982 [TestNG-test-Cucumber Tests-3] DEBUG - Parsing relationship: /_rels/.rels
+19:10:14.221 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+19:10:14.230 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+19:10:14.232 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+19:10:14.233 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+19:10:14.234 [TestNG-test-Cucumber Tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+19:10:14.242 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+19:10:14.296 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+19:10:14.298 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+19:10:14.314 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+19:10:14.318 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+19:10:14.326 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+19:10:14.330 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+19:10:14.332 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+19:10:14.334 [TestNG-test-Cucumber Tests-1] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+19:10:14.458 [TestNG-test-Cucumber Tests-1] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+19:10:14.460 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle themefd26doctype
+19:10:14.461 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctworkbook83c3type
+19:10:14.599 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctworkbookpr03a5type
+19:10:14.613 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle stylesheet5d8bdoctype
+19:10:14.621 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctbookviewsb864type
+19:10:14.625 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctstylesheet4257type
+19:10:14.628 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctbookviewf677type
+19:10:14.632 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctfonts6623type
+19:10:14.640 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctfont14d8type
+19:10:14.646 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctsheets49fdtype
+19:10:14.652 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctfills2c6ftype
+19:10:14.657 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle propertiesee84doctype
+19:10:14.658 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctfill550ctype
+19:10:14.661 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle ctproperties3f10type
+19:10:14.664 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctborders0d66type
+19:10:14.670 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctborderf935type
+19:10:14.676 [TestNG-test-Cucumber Tests-1] TRACE - Resolving type for handle properties288cdoctype
+19:10:14.679 [TestNG-test-Cucumber Tests-3] TRACE - Resolving type for handle ctcellxfs1322type
