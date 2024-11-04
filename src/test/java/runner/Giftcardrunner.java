@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/features/GiftCards.feature",
 		//features = "src/test/resources/features",
     glue = {"stepdefinition","hooks"},
-    plugin = {"pretty", "html:reports/cucumber-reports.html",
+    plugin = {"pretty", "html:reports2/Giftcard-cucumber-reports.html",
     		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
     		
     },

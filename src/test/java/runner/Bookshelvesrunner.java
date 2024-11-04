@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/features/Bookshelves.feature",
 		//features = "src/test/resources/features",
     glue = {"stepdefinition","hooks"},
-    plugin = {"pretty", "html:reports/cucumber-reports.html",
+    plugin = {"pretty", "html:reports1/Bookshelves-cucumber-reports.html",
     		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
     		
     },

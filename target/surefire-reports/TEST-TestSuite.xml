@@ -1,212 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="107.187" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="75.392" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="Driver/chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\2361781\eclipse-workspace\CucumberProject\target\test-classes;C:\Users\2361781\eclipse-workspace\CucumberProject\target\classes;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-java\4.24.0\selenium-java-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-api\4.24.0\selenium-api-4.24.0.jar;C:\Users\2361781\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.24.0\selenium-chrome-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.24.0\selenium-chromium-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-json\4.24.0\selenium-json-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.24.0\selenium-manager-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.24.0\selenium-devtools-v126-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.24.0\selenium-devtools-v127-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.24.0\selenium-devtools-v128-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.24.0\selenium-devtools-v85-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.24.0\selenium-edge-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.24.0\selenium-firefox-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-http\4.24.0\selenium-http-4.24.0.jar;C:\Users\2361781\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.24.0\selenium-ie-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.24.0\selenium-remote-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\2361781\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2361781\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2361781\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2361781\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\2361781\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\2361781\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-api\1.41.0\opentelemetry-api-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-context\1.41.0\opentelemetry-context-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.41.0\opentelemetry-exporter-logging-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.41.0\opentelemetry-sdk-common-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.41.0\opentelemetry-sdk-extension-autoconfigure-spi-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.41.0\opentelemetry-sdk-extension-autoconfigure-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.41.0-alpha\opentelemetry-api-incubator-1.41.0-alpha.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.41.0\opentelemetry-sdk-trace-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.41.0\opentelemetry-sdk-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.41.0\opentelemetry-sdk-metrics-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.41.0\opentelemetry-sdk-logs-1.41.0.jar;C:\Users\2361781\.m2\repository\net\bytebuddy\byte-buddy\1.15.0\byte-buddy-1.15.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-os\4.24.0\selenium-os-4.24.0.jar;C:\Users\2361781\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.24.0\selenium-safari-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-support\4.24.0\selenium-support-4.24.0.jar;C:\Users\2361781\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\2361781\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2361781\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\2361781\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\2361781\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\2361781\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\2361781\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\2361781\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\2361781\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\2361781\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\2361781\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\2361781\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2361781\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\2361781\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\2361781\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2361781\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2361781\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\2361781\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\2361781\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2361781\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2361781\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2361781\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\2361781\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\2361781\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2361781\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2361781\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\2361781\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\2361781\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\2361781\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\2361781\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\2361781\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\2361781\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\2361781\.m2\repository\ch\qos\logback\logback-classic\1.5.12\logback-classic-1.5.12.jar;C:\Users\2361781\.m2\repository\ch\qos\logback\logback-core\1.5.12\logback-core-1.5.12.jar;C:\Users\2361781\.m2\repository\org\slf4j\slf4j-api\2.1.0-alpha1\slf4j-api-2.1.0-alpha1.jar;C:\Users\2361781\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\2361781\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\2361781\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2361781\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2361781\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2361781\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2361781\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\2361781\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2361781\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\2361781\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\2361781\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2361781\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\2361781\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\2361781\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\2361781\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2361781\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2361781\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2361781\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2361781\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\2361781\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\2361781\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\2361781\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2361781\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2361781\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2361781\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2361781\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2361781\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2361781\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;"/>
-    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Users\2361781\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.12.v20240802-1518\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\2361781\AppData\Local\Temp\surefire7021855823800937740\surefirebooter-20241102180824131_3.jar C:\Users\2361781\AppData\Local\Temp\surefire7021855823800937740 2024-11-02T18-08-23_475-jvmRun1 surefire-20241102180824131_1tmp surefire_0-20241102180824131_2tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\2361781\AppData\Local\Temp\surefire16180231064310777831\surefirebooter-20241103110247289_3.jar C:\Users\2361781\AppData\Local\Temp\surefire16180231064310777831 2024-11-03T11-02-46_767-jvmRun1 surefire-20241103110247289_1tmp surefire_0-20241103110247289_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\2361781\eclipse-workspace\CucumberProject\target\test-classes;C:\Users\2361781\eclipse-workspace\CucumberProject\target\classes;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-java\4.24.0\selenium-java-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-api\4.24.0\selenium-api-4.24.0.jar;C:\Users\2361781\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.24.0\selenium-chrome-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.24.0\selenium-chromium-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-json\4.24.0\selenium-json-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.24.0\selenium-manager-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.24.0\selenium-devtools-v126-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.24.0\selenium-devtools-v127-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.24.0\selenium-devtools-v128-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.24.0\selenium-devtools-v85-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.24.0\selenium-edge-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.24.0\selenium-firefox-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-http\4.24.0\selenium-http-4.24.0.jar;C:\Users\2361781\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.24.0\selenium-ie-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.24.0\selenium-remote-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\2361781\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2361781\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2361781\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2361781\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\2361781\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\2361781\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-api\1.41.0\opentelemetry-api-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-context\1.41.0\opentelemetry-context-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.41.0\opentelemetry-exporter-logging-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.41.0\opentelemetry-sdk-common-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.41.0\opentelemetry-sdk-extension-autoconfigure-spi-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.41.0\opentelemetry-sdk-extension-autoconfigure-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.41.0-alpha\opentelemetry-api-incubator-1.41.0-alpha.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.41.0\opentelemetry-sdk-trace-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.41.0\opentelemetry-sdk-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.41.0\opentelemetry-sdk-metrics-1.41.0.jar;C:\Users\2361781\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.41.0\opentelemetry-sdk-logs-1.41.0.jar;C:\Users\2361781\.m2\repository\net\bytebuddy\byte-buddy\1.15.0\byte-buddy-1.15.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-os\4.24.0\selenium-os-4.24.0.jar;C:\Users\2361781\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.24.0\selenium-safari-driver-4.24.0.jar;C:\Users\2361781\.m2\repository\org\seleniumhq\selenium\selenium-support\4.24.0\selenium-support-4.24.0.jar;C:\Users\2361781\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\2361781\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2361781\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\2361781\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\2361781\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\2361781\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\2361781\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\2361781\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\2361781\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\2361781\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\2361781\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\2361781\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2361781\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\2361781\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\2361781\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2361781\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2361781\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\2361781\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\2361781\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2361781\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2361781\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2361781\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\2361781\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\2361781\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2361781\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2361781\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\2361781\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\2361781\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\2361781\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\2361781\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\2361781\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\2361781\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\2361781\.m2\repository\ch\qos\logback\logback-classic\1.5.12\logback-classic-1.5.12.jar;C:\Users\2361781\.m2\repository\ch\qos\logback\logback-core\1.5.12\logback-core-1.5.12.jar;C:\Users\2361781\.m2\repository\org\slf4j\slf4j-api\2.1.0-alpha1\slf4j-api-2.1.0-alpha1.jar;C:\Users\2361781\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\2361781\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\2361781\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2361781\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2361781\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2361781\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2361781\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\2361781\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2361781\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\2361781\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\2361781\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\2361781\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\2361781\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2361781\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\2361781\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\2361781\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\2361781\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2361781\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2361781\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2361781\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2361781\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\2361781\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\2361781\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\2361781\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2361781\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2361781\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2361781\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2361781\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2361781\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2361781\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\2361781\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\2361781"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2024-07-16"/>
-    <property name="java.home" value="C:\Users\2361781\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.12.v20240802-1518\jre"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-17"/>
     <property name="file.separator" value="\"/>
-    <property name="style.color" value="always"/>
     <property name="basedir" value="C:\Users\2361781\eclipse-workspace\CucumberProject"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\2361781\AppData\Local\Temp\surefire7021855823800937740\surefirebooter-20241102180824131_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\2361781\AppData\Local\Temp\surefire16180231064310777831\surefirebooter-20241103110247289_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.12+7"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS"/>
     <property name="user.name" value="2361781"/>
     <property name="path.separator" value=";"/>
-    <property name="otel.metrics.exporter" value="none"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="otel.traces.exporter" value="none"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Temurin-17.0.12+7"/>
+    <property name="java.vendor.version" value="Zulu17.32+13-CA"/>
     <property name="localRepository" value="C:\Users\2361781\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
-    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
     <property name="java.io.tmpdir" value="C:\Users\2361781\AppData\Local\Temp\"/>
-    <property name="java.version" value="17.0.12"/>
+    <property name="java.version" value="17.0.2"/>
     <property name="user.dir" value="C:\Users\2361781\eclipse-workspace\CucumberProject"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\2361781\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.12.v20240802-1518\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/2361781/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.12.v20240802-1518/jre/bin/server;C:/Users/2361781/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.12.v20240802-1518/jre/bin;C:\Program Files\Zulu\zulu-17\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\2361781\apache-maven-3.9.9\bin;C:\Users\2361781\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;."/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vm.version" value="17.0.12+7"/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/2361781/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.12.v20240802-1518/jre/bin/server;C:/Users/2361781/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.12.v20240802-1518/jre/bin;C:\Program Files\Zulu\zulu-17\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\2361781\apache-maven-3.9.9\bin;C:\Users\2361781\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="17.0.2+8-LTS"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Selecting a Gift Card&quot;, &quot;Gift Cards&quot;](1)" classname="runner.Giftcardrunner" time="92.334">
-    <system-out><![CDATA[18:08:27.318 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\2361781\eclipse-workspace\CucumberProject\testng.xml"
-
-@regression
-Scenario: Search Study Chairs                            # src/test/resources/features/StudyChairs.feature:22
-
-@sanity
-Scenario: Validate extraction of menu items and write them to Excel # src/test/resources/features/Menu.feature:22
+  <testcase name="runScenario[&quot;Validate extraction of menu items and write them to Excel&quot;, &quot;Extract menu items from Menus page&quot;](1)" classname="runner.Menurunner" time="67.099">
+    <system-out><![CDATA[11:02:49.817 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\2361781\eclipse-workspace\CucumberProject\testng.xml"
 
 @regression
 Scenario: Search for bookshelves                       # src/test/resources/features/Bookshelves.feature:22
 
 @regression
+Scenario: Search Study Chairs                            # src/test/resources/features/StudyChairs.feature:22
+
+@regression
 Scenario: Selecting a Gift Card                                                                            # src/test/resources/features/GiftCards.feature:22
-18:09:27.829 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Initializing WebDriver and setting up the page objects
-18:09:27.950 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Initializing WebDriver and setting up page objects
-  Given I open the browser                             # stepdefinition.BookshelvesSteps.i_open_the_browser()
-  Given I open the browser with Menus page                          # stepdefinition.MenusSteps.i_open_the_browser_with_menus_page()
-  And I navigate to "https://www.pepperfry.com"        # stepdefinition.BookshelvesSteps.i_navigate_to(java.lang.String)
-18:09:28.186 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Starting test: MenuTest
-18:09:28.203 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Starting test: searchBookshelvesTest
-  When I hover over Luxury Menu                                     # stepdefinition.MenusSteps.i_hover_over_luxury_menu()
-  When I select the Sofas Menu                                      # stepdefinition.MenusSteps.i_select_the_sofas_menu()
-18:09:31.607 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Starting test: extractMenuItemsToExcel
-18:09:33.939 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Initializing the WebDriver and setting up the page objects
-  Given I open the Pepperfry website                     # stepdefinition.StudyChairsSteps.openWebsite()
-18:09:34.023 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Starting test: searchStudyChairs
-18:09:37.053 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Initializing WebDriver and setting up the page objects
+
+@sanity
+Scenario: Validate extraction of menu items and write them to Excel # src/test/resources/features/Menu.feature:22
+11:03:07.103 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Initializing WebDriver and setting up the page objects
   Given the user navigates to the gift cards page                                                          # stepdefinition.GiftCardSteps.navigateToGiftCardsPage()
-18:09:37.240 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Starting test: selectGiftCardTest
-18:09:38.576 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Retrieved sub menu data successfully
-18:09:38.663 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Search for 'bookshelves' performed successfully
+11:03:07.348 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Starting test: selectGiftCardTest
+11:03:19.053 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Initializing the WebDriver and setting up the page objects
+  Given I open the Pepperfry website                     # stepdefinition.StudyChairsSteps.openWebsite()
+11:03:19.093 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Starting test: searchStudyChairs
+11:03:23.903 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Search for 'study chairs' performed successfully
+  When I search for "study chairs"                       # stepdefinition.StudyChairsSteps.searchForChairs(java.lang.String)
+11:03:23.917 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Starting test: applyFiltersTest
+11:03:24.932 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Initializing WebDriver and setting up page objects
+  Given I open the browser with Menus page                          # stepdefinition.MenusSteps.i_open_the_browser_with_menus_page()
+11:03:24.952 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Starting test: MenuTest
+  When I hover over Luxury Menu                                     # stepdefinition.MenusSteps.i_hover_over_luxury_menu()
+  When the user clicks on the gift card link                                                               # stepdefinition.GiftCardSteps.clickGiftCardLink()
+11:03:27.118 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Selected gift card successfully
+  When I select the Sofas Menu                                      # stepdefinition.MenusSteps.i_select_the_sofas_menu()
+11:03:28.888 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Starting test: extractMenuItemsToExcel
+11:03:31.118 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Initializing WebDriver and setting up the page objects
+  Given I open the browser                             # stepdefinition.BookshelvesSteps.i_open_the_browser()
+  And I navigate to "https://www.pepperfry.com"        # stepdefinition.BookshelvesSteps.i_navigate_to(java.lang.String)
+11:03:31.165 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Starting test: searchBookshelvesTest
+  And the user selects a birthday gift card                                                                # stepdefinition.GiftCardSteps.selectBirthdayGiftCard()
+Gift card selection successful.
+  Then the gift card selection is successful                                                               # stepdefinition.GiftCardSteps.verifyGiftCardSelection()
+11:03:31.202 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Starting test: fillGiftDetailsTest
+11:03:39.220 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Retrieved sub menu data successfully
+11:03:39.466 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Search for 'bookshelves' performed successfully
   Then I search for the "bookshelves"                  # stepdefinition.BookshelvesSteps.i_search_for(java.lang.String)
-18:09:38.672 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Starting test: applyFilterTest
+11:03:39.472 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Starting test: applyFilterTest
 Menu Item 1: All
+11:03:39.662 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- All data filled successfully
+  When the user fills recipient details with "John", "1234567890", "john@gmail.com", and "Happy Birthday!" # stepdefinition.GiftCardSteps.fillRecipientDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+11:03:39.667 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Starting test: extractErrorMessagesToExcelTest
+11:03:39.668 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Retrieved error messages successfully
+11:03:39.668 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Header added to excelData succesfully
 Menu Item 2: Sofas
 Menu Item 3: Recliners
-18:09:39.893 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Search for 'study chairs' performed successfully
-  When I search for "study chairs"                       # stepdefinition.StudyChairsSteps.searchForChairs(java.lang.String)
-18:09:39.898 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Starting test: applyFiltersTest
-  When the user clicks on the gift card link                                                               # stepdefinition.GiftCardSteps.clickGiftCardLink()
-18:09:40.365 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Selected gift card successfully
+Extracted Error Messages:
+Error Type: Empty Email Error | Message: Sender's Email ID Cannot Be Empty
+Error Type: Invalid Email Error | Message: Enter a Valid Email ID
 Menu Item 4: Chairs
 Menu Item 5: Coffee Tables
 Menu Item 6: Side Tables
 Menu Item 7: Console Table
 Menu Item 8: TV and Media Units
-  And the user selects a birthday gift card                                                                # stepdefinition.GiftCardSteps.selectBirthdayGiftCard()
-Gift card selection successful.
-  Then the gift card selection is successful                                                               # stepdefinition.GiftCardSteps.verifyGiftCardSelection()
-18:09:44.196 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Starting test: fillGiftDetailsTest
-18:09:48.304 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Data written to Excel file: Output_Excel/MenuData.xlsx
+11:03:40.983 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
+Error messages written to Excel: Output_Excel/GiftCardErrors.xlsx
+11:03:40.984 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Excel file verified successfully
+  And the user fills sender details with "Doe", "1234567891", and "doe@gmail.com"                          # stepdefinition.GiftCardSteps.fillSenderDetails(java.lang.String,java.lang.String,java.lang.String)
+11:03:41.007 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Data written to Excel file: Output_Excel/MenuData.xlsx
 Menu data written to Excel: Output_Excel/MenuData.xlsx
-18:09:48.305 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Excel file Verified Successfully
+11:03:41.009 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Excel file Verified Successfully
   When I extract all Submenu items to Excel                         # stepdefinition.MenusSteps.i_extract_all_menu_items_to_excel()
 Menu items saved successfully.
-18:09:48.312 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Quiting the WebDriver
+11:03:41.014 [TestNG-test-Cucumber Tests-1] INFO stepdefinition.MenusSteps -- Quiting the WebDriver
   Then the menu data is saved successfully                          # stepdefinition.MenusSteps.the_menu_data_is_saved_successfully()
-18:09:48.359 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Price Filter applied successfully
-  When I apply the price filter with max value "15000" # stepdefinition.BookshelvesSteps.i_apply_the_price_filter_with_max_value(java.lang.String)
-18:09:48.365 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Starting test: sortByLowestPriceTest
-18:09:53.905 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- All data filled successfully
-  When the user fills recipient details with "John", "1234567890", "john@gmail.com", and "Happy Birthday!" # stepdefinition.GiftCardSteps.fillRecipientDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-18:09:53.909 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Starting test: extractErrorMessagesToExcelTest
-18:09:53.909 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Retrieved error messages successfully
-18:09:53.910 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Header added to excelData succesfully
-18:09:53.924 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Sort by Filter applied successfully
-  When I sort the items by "Lowest Priced First"       # stepdefinition.BookshelvesSteps.i_sort_the_items_by(java.lang.String)
-18:09:53.929 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Starting test: extractBookshelfDetailsToExcelTest
-Extracted Error Messages:
-Error Type: Empty Email Error | Message: Sender's Email ID Cannot Be Empty
-Error Type: Invalid Email Error | Message: Enter a Valid Email ID
-18:09:54.332 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
-Error messages written to Excel: Output_Excel/GiftCardErrors.xlsx
-18:09:54.333 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Excel file verified successfully
-  And the user fills sender details with "Doe", "1234567891", and "doe@gmail.com"                          # stepdefinition.GiftCardSteps.fillSenderDetails(java.lang.String,java.lang.String,java.lang.String)
   And the denomination is selected                                                                         # stepdefinition.GiftCardSteps.denominationSelected()
 Gift card details filled successfully.
-18:09:55.471 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Quiting the WebDriver
+11:03:42.063 [TestNG-test-Cucumber Tests-3] INFO stepdefinition.GiftCardSteps -- Quiting the WebDriver
   Then the gift card details are filled successfully                                                       # stepdefinition.GiftCardSteps.verifyGiftCardDetailsFilled()
-18:09:57.494 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Price Filters applied successfully
+11:03:44.973 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Price Filter applied successfully
+  When I apply the price filter with max value "15000" # stepdefinition.BookshelvesSteps.i_apply_the_price_filter_with_max_value(java.lang.String)
+11:03:44.981 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Starting test: sortByLowestPriceTest
+11:03:46.237 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Price Filters applied successfully
   When I apply a price filter of "15000"                 # stepdefinition.StudyChairsSteps.applyPriceFilter(java.lang.String)
-18:09:57.499 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Starting test: sortByCustomerRating
-18:09:59.377 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Retrieved product names and prices successfully
-18:09:59.377 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Header added to excelData
-18:09:59.378 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Added product: Trendlong Round Floating Book Shelf with price: ?999
-Product 1: Name = Trendlong Round Floating Book Shelf, Price = ₹999
-18:09:59.379 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Added product: Captiver Wall Mount Book Shelf In Dark Acazia Finish with price: ?1,389
-Product 2: Name = Captiver Wall Mount Book Shelf In Dark Acazia Finish, Price = ₹1,389
-18:09:59.380 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Added product: Victor Book Shelf In Wenge Colour with price: ?1,389
-Product 3: Name = Victor Book Shelf In Wenge Colour, Price = ₹1,389
-18:09:59.498 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Data written to Excel file: Output_Excel/BookshelvesData.xlsx
+11:03:46.243 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Starting test: sortByCustomerRating
+11:03:49.688 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Sort by Filter applied successfully
+  When I sort the items by "Lowest Priced First"       # stepdefinition.BookshelvesSteps.i_sort_the_items_by(java.lang.String)
+11:03:49.691 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Starting test: extractBookshelfDetailsToExcelTest
+11:03:51.503 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Sort By Filters applied successfully
+  When I sort the product list by Customer Ratings       # stepdefinition.StudyChairsSteps.sortByCustomerRating()
+11:03:51.507 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Starting test: extractStudyChairsDetails
+11:03:52.733 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Retrieved product names and prices successfully
+11:03:52.733 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Header added to excelData
+11:03:52.735 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Added product: Yae Kids Wall Mounted Book Shelve In Light Green Colour with price: ?5,349
+Product 1: Name = Yae Kids Wall Mounted Book Shelve In Light Green Colour, Price = ₹5,349
+11:03:52.736 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Added product: Jungle Kids Bookshelf in Chestnut Finish with price: ?9,999
+Product 2: Name = Jungle Kids Bookshelf in Chestnut Finish, Price = ₹9,999
+11:03:52.737 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Added product: Clary Storage Cabinet in Dark Acazia Colour with price: ?10,326
+Product 3: Name = Clary Storage Cabinet in Dark Acazia Colour, Price = ₹10,326
+11:03:52.880 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Data written to Excel file: Output_Excel/BookshelvesData.xlsx
 Bookshelf data written to Excel: Output_Excel/BookshelvesData.xlsx
-18:09:59.499 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Excel file verified successfully
+11:03:52.895 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Excel file verified successfully
   When I extract product names and prices              # stepdefinition.BookshelvesSteps.i_extract_product_names_and_prices()
 Bookshelf data written to Excel: BookshelvesData.xlsx
-18:09:59.501 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Closing the WebDriver
+11:03:52.914 [TestNG-test-Cucumber Tests-2] INFO stepdefinition.BookshelvesSteps -- Closing the WebDriver
   Then I write the details to "BookshelvesData.xlsx"   # stepdefinition.BookshelvesSteps.i_write_the_details_to(java.lang.String)
-18:10:02.553 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Sort By Filters applied successfully
-  When I sort the product list by Customer Ratings       # stepdefinition.StudyChairsSteps.sortByCustomerRating()
-18:10:02.557 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Starting test: extractStudyChairsDetails
-]]></system-out>
-    <system-err><![CDATA[SLF4J(I): Connected with provider of type [ch.qos.logback.classic.spi.LogbackServiceProvider]
-Nov 02, 2024 6:08:34 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
-INFO: Using OpenTelemetry for tracing
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Validate extraction of menu items and write them to Excel&quot;, &quot;Extract menu items from Menus page&quot;](1)" classname="runner.Menurunner" time="93.845"/>
-  <testcase name="runScenario[&quot;Search for bookshelves&quot;, &quot;Bookshelves search and filter tests&quot;](1)" classname="runner.Bookshelvesrunner" time="97.282">
-    <system-out><![CDATA[18:10:06.563 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Product names and prices Retrieved successfully
-18:10:06.563 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Added Header to excelData
-18:10:06.563 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Product: Atom Breathable Mesh Ergonomic Chair in Black & Orange Colour with price: ?4,099
+11:03:54.401 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Product names and prices Retrieved successfully
+11:03:54.401 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Added Header to excelData
+11:03:54.402 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Product: Atom Breathable Mesh Ergonomic Chair in Black & Orange Colour with price: ?4,099
 Product 1: Name = Atom Breathable Mesh Ergonomic Chair in Black & Orange Colour, Price = ₹4,099
-18:10:06.564 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Product: Amaze Breathable Mesh Guest Chair in Black Colour with price: ?3,900
+11:03:54.402 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Product: Amaze Breathable Mesh Guest Chair in Black Colour with price: ?3,900
 Product 2: Name = Amaze Breathable Mesh Guest Chair in Black Colour, Price = ₹3,900
-18:10:06.564 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Product: Tauras Lite Breathable MeshMid Back Ergonomic Chair in Red Colour with price: ?5,499
+11:03:54.403 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Product: Tauras Lite Breathable MeshMid Back Ergonomic Chair in Red Colour with price: ?5,499
 Product 3: Name = Tauras Lite Breathable MeshMid Back Ergonomic Chair in Red Colour, Price = ₹5,499
-18:10:06.647 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+11:03:54.497 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
 Study chairs data written to Excel: Output_Excel/StudyChairsData.xlsx
-18:10:06.647 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Successfully verified Excel file
+11:03:54.498 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Successfully verified Excel file
   When I extract product details to Excel                # stepdefinition.StudyChairsSteps.extractDetailsToExcel()
 Excel validated with product names and prices.
-18:10:06.652 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Closing WebDriver
+11:03:54.503 [TestNG-test-Cucumber Tests-4] INFO stepdefinition.StudyChairsSteps -- Closing WebDriver
   Then the Excel should contain product names and prices # stepdefinition.StudyChairsSteps.validateExcelContent()
 ]]></system-out>
-    <system-err><![CDATA[┌──────────────────────────────────────────────────────────────────────────┐
-│ View your Cucumber Report at:                                            │
-│ https://reports.cucumber.io/reports/772d57d8-6a76-4364-86a2-a9eb5c6b4337 │
-│                                                                          │
-│ This report will self-destruct in 24h.                                   │
-│ Keep reports forever: https://reports.cucumber.io/profile                │
-└──────────────────────────────────────────────────────────────────────────┘┌──────────────────────────────────────────────────────────────────────────┐
-│ View your Cucumber Report at:                                            │
-│ https://reports.cucumber.io/reports/e9777c83-718d-410d-ba1b-531adb9e3883 │
-│                                                                          │
-│ This report will self-destruct in 24h.                                   │
-│ Keep reports forever: https://reports.cucumber.io/profile                │
-└──────────────────────────────────────────────────────────────────────────┘]]></system-err>
+    <system-err><![CDATA[SLF4J(I): Connected with provider of type [ch.qos.logback.classic.spi.LogbackServiceProvider]
+]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Search Study Chairs&quot;, &quot;StudyChairs Tests&quot;](1)" classname="runner.TestRunner" time="100.659">
-    <system-err><![CDATA[┌──────────────────────────────────────────────────────────────────────────┐
-│ View your Cucumber Report at:                                            │
-│ https://reports.cucumber.io/reports/9c1136d8-f59a-4739-8eb3-5885adf126f6 │
-│                                                                          │
-│ This report will self-destruct in 24h.                                   │
-│ Keep reports forever: https://reports.cucumber.io/profile                │
-└──────────────────────────────────────────────────────────────────────────┘]]></system-err>
-  </testcase>
+  <testcase name="runScenario[&quot;Selecting a Gift Card&quot;, &quot;Gift Cards&quot;](1)" classname="runner.Giftcardrunner" time="68.505"/>
+  <testcase name="runScenario[&quot;Search Study Chairs&quot;, &quot;StudyChairs Tests&quot;](1)" classname="runner.TestRunner" time="68.654"/>
+  <testcase name="runScenario[&quot;Search for bookshelves&quot;, &quot;Bookshelves search and filter tests&quot;](1)" classname="runner.Bookshelvesrunner" time="69.532"/>
 </testsuite>

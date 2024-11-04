@@ -3,20 +3,13 @@
 <suite thread-count="4" parallel="classes" name="Failed suite [Cucumber Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="4" parallel="classes" name="Cucumber Tests(failed)" verbose="0">
     <classes>
-      <class name="runner.Bookshelvesrunner">
+      <class name="runner.TestRunner">
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="0"/>
         </methods>
-      </class> <!-- runner.Bookshelvesrunner -->
-      <class name="runner.Menurunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- runner.Menurunner -->
+      </class> <!-- runner.TestRunner -->
     </classes>
   </test> <!-- Cucumber Tests(failed) -->
 </suite> <!-- Failed suite [Cucumber Test Suite] -->
