@@ -6,7 +6,7 @@
             <class name="runner.Menurunner" />
             <class name="runner.Bookshelvesrunner" />
             <class name="runner.Giftcardrunner" />
-            <class name="runner.TestRunner" />
+            <class name="runner.StudyChairrunner" />
         </classes>
     </test>
 </suite>

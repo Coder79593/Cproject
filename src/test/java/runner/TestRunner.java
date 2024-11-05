@@ -8,13 +8,10 @@ import io.cucumber.testng.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/StudyChairs.feature",
-	//	features = "src/test/resources/features",
+		features = "src/test/resources/features",
     glue = {"stepdefinition","hooks"},
-     //   plugin = {"pretty", "html:reports/cucumber-reports.html",
-    plugin = {"pretty", "html:reports4/Studychair-cucumber-reports.html",
+       plugin = {"pretty", "html:reports/cucumber-reports.html",
     		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
-    		
     },
     dryRun=false,
     monochrome = true,

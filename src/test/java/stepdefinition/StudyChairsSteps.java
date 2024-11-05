@@ -8,14 +8,15 @@ import java.util.ArrayList;
 import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.log4testng.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 import factory.BaseClass;
 import pages.StudyChairsPage;
 import utility.excel;
 
 public class StudyChairsSteps extends BaseClass{
-	private static final Logger logger = Logger.getLogger(StudyChairsSteps.class);
+	private static final Logger logger = LogManager.getLogger(StudyChairsSteps.class);
     WebDriver driver;
     StudyChairsPage studyChairsPage;
     

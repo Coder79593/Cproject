@@ -9,7 +9,8 @@ import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.log4testng.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 import factory.BaseClass;
 import pages.GiftCardsPage;
@@ -17,7 +18,7 @@ import utility.excel;
 import utility.readexcel;
 
 public class GiftCardSteps  extends BaseClass{
-	private static final Logger logger = Logger.getLogger(GiftCardSteps.class);
+	private static final Logger logger = LogManager.getLogger(GiftCardSteps.class);
     WebDriver driver;
     GiftCardsPage giftCardsPage;
 

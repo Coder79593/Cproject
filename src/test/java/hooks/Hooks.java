@@ -21,9 +21,9 @@ public class Hooks extends BaseClass{
 	
 	@After
     public void tearDown() {
-        		
-       driver.quit();
-       
+       if(driver != null) { 		
+        quitBrowser();
+       }
     }
 	
     @AfterStep

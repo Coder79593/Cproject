@@ -6,7 +6,8 @@ import io.cucumber.java.en.Then;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.log4testng.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 import factory.BaseClass;
 import pages.MenusPage;
@@ -18,7 +19,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class MenusSteps  extends BaseClass{
-	private static final Logger logger = Logger.getLogger(MenusSteps.class);
+	private static final Logger logger = LogManager.getLogger(MenusSteps.class);
 
     WebDriver driver;
     MenusPage menusPage;

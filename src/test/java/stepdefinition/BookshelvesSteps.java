@@ -2,7 +2,8 @@ package stepdefinition;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.log4testng.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 import factory.BaseClass;
 import io.cucumber.java.en.And;
@@ -18,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BookshelvesSteps  extends BaseClass {
-	private static final Logger logger = Logger.getLogger(BookshelvesSteps.class);
+	private static final Logger logger = LogManager.getLogger(BookshelvesSteps.class);
     WebDriver driver;
     BookshelvesPage bookshelvesPage;
 
