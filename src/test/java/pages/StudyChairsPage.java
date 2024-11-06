@@ -83,6 +83,7 @@ public class StudyChairsPage extends BasePage {
 
         
         try {
+        	wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("span.more-filter.text-md")));
             wait.until(ExpectedConditions.elementToBeClickable(filterButton)).click();
         } catch (ElementClickInterceptedException e) {
 

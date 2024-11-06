@@ -1,56 +1,195 @@
-09:58:16.865 [TestNG-test=Cucumber Tests-2] INFO  - Browser initialized: chrome
-09:58:16.865 [TestNG-test=Cucumber Tests-4] INFO  - Browser initialized: chrome
-09:58:17.731 [TestNG-test=Cucumber Tests-3] INFO  - Browser initialized: chrome
-09:58:22.697 [TestNG-test=Cucumber Tests-1] INFO  - Browser initialized: chrome
-09:58:51.084 [TestNG-test=Cucumber Tests-2] INFO  - Navigated to URL: https://www.pepperfry.com
-09:58:51.098 [TestNG-test=Cucumber Tests-2] INFO  - Initializing WebDriver and setting up the page objects
-09:58:51.134 [TestNG-test=Cucumber Tests-2] INFO  - Starting test: searchBookshelvesTest
-09:58:51.797 [TestNG-test=Cucumber Tests-3] INFO  - Navigated to URL: https://www.pepperfry.com
-09:58:51.799 [TestNG-test=Cucumber Tests-3] INFO  - Initializing WebDriver and setting up the page objects
-09:58:51.812 [TestNG-test=Cucumber Tests-3] INFO  - Starting test: selectGiftCardTest
-09:58:52.376 [TestNG-test=Cucumber Tests-3] INFO  - Selected gift card successfully
-09:58:52.444 [TestNG-test=Cucumber Tests-4] INFO  - Navigated to URL: https://www.pepperfry.com
-09:58:52.445 [TestNG-test=Cucumber Tests-4] INFO  - Initializing the WebDriver and setting up the page objects
-09:58:52.454 [TestNG-test=Cucumber Tests-4] INFO  - Starting test: searchStudyChairs
-09:58:53.507 [TestNG-test=Cucumber Tests-2] INFO  - Search for 'bookshelves' performed successfully
-09:58:53.511 [TestNG-test=Cucumber Tests-2] INFO  - Starting test: applyFilterTest
-09:58:54.456 [TestNG-test=Cucumber Tests-4] INFO  - Search for 'study chairs' performed successfully
-09:58:54.459 [TestNG-test=Cucumber Tests-4] INFO  - Starting test: applyFiltersTest
-09:58:55.090 [TestNG-test=Cucumber Tests-3] INFO  - Starting test: fillGiftDetailsTest
-09:58:56.414 [TestNG-test=Cucumber Tests-1] INFO  - Navigated to URL: https://www.pepperfry.com
-09:58:56.418 [TestNG-test=Cucumber Tests-1] INFO  - Initializing WebDriver and setting up page objects
-09:58:56.418 [TestNG-test=Cucumber Tests-2] INFO  - Price Filter applied successfully
-09:58:56.422 [TestNG-test=Cucumber Tests-2] INFO  - Starting test: sortByLowestPriceTest
-09:58:56.461 [TestNG-test=Cucumber Tests-1] INFO  - Starting test: MenuTest
-09:58:58.138 [TestNG-test=Cucumber Tests-1] INFO  - Starting test: extractMenuItemsToExcel
-09:58:59.256 [TestNG-test=Cucumber Tests-2] INFO  - Sort by Filter applied successfully
-09:58:59.259 [TestNG-test=Cucumber Tests-2] INFO  - Starting test: extractBookshelfDetailsToExcelTest
-09:58:59.356 [TestNG-test=Cucumber Tests-2] INFO  - Retrieved product names and prices successfully
-09:58:59.356 [TestNG-test=Cucumber Tests-2] INFO  - Header added to excelData
-09:58:59.742 [TestNG-test=Cucumber Tests-3] INFO  - All data filled successfully
-09:58:59.744 [TestNG-test=Cucumber Tests-3] INFO  - Starting test: extractErrorMessagesToExcelTest
-09:58:59.745 [TestNG-test=Cucumber Tests-3] INFO  - Retrieved error messages successfully
-09:58:59.745 [TestNG-test=Cucumber Tests-3] INFO  - Header added to excelData succesfully
-09:58:59.870 [TestNG-test=Cucumber Tests-1] INFO  - Retrieved sub menu data successfully
-09:58:59.879 [TestNG-test=Cucumber Tests-2] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
-09:58:59.880 [TestNG-test=Cucumber Tests-2] INFO  - Excel file verified successfully
-09:58:59.885 [TestNG-test=Cucumber Tests-2] INFO  - Closing the WebDriver
-09:58:59.896 [TestNG-test=Cucumber Tests-3] INFO  - Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
-09:58:59.896 [TestNG-test=Cucumber Tests-3] INFO  - Excel file verified successfully
-09:59:00.523 [TestNG-test=Cucumber Tests-3] INFO  - Quiting the WebDriver
-09:59:00.861 [TestNG-test=Cucumber Tests-1] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
-09:59:00.861 [TestNG-test=Cucumber Tests-1] INFO  - Excel file Verified Successfully
-09:59:00.870 [TestNG-test=Cucumber Tests-1] INFO  - Quiting the WebDriver
-09:59:04.920 [TestNG-test=Cucumber Tests-3] INFO  - Browser closed successfully
-09:59:05.194 [TestNG-test=Cucumber Tests-1] INFO  - Browser closed successfully
-09:59:06.251 [TestNG-test=Cucumber Tests-2] INFO  - Browser closed successfully
-09:59:29.051 [TestNG-test=Cucumber Tests-4] INFO  - Price Filters applied successfully
-09:59:29.056 [TestNG-test=Cucumber Tests-4] INFO  - Starting test: sortByCustomerRating
-09:59:31.145 [TestNG-test=Cucumber Tests-4] INFO  - Sort By Filters applied successfully
-09:59:31.148 [TestNG-test=Cucumber Tests-4] INFO  - Starting test: extractStudyChairsDetails
-09:59:31.186 [TestNG-test=Cucumber Tests-4] INFO  - Product names and prices Retrieved successfully
-09:59:31.186 [TestNG-test=Cucumber Tests-4] INFO  - Added Header to excelData
-09:59:31.216 [TestNG-test=Cucumber Tests-4] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
-09:59:31.216 [TestNG-test=Cucumber Tests-4] INFO  - Successfully verified Excel file
-09:59:31.218 [TestNG-test=Cucumber Tests-4] INFO  - Closing WebDriver
-09:59:34.234 [TestNG-test=Cucumber Tests-4] INFO  - Browser closed successfully
+19:34:57.942 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:34:57.960 [main] INFO  - Initializing the WebDriver and setting up the page objects
+19:34:57.969 [main] INFO  - Starting test: searchStudyChairs
+19:35:00.742 [main] INFO  - Search for 'study chairs' performed successfully
+19:35:00.748 [main] INFO  - Starting test: applyFiltersTest
+19:35:10.267 [main] INFO  - Price Filters applied successfully
+19:35:10.273 [main] INFO  - Starting test: sortByCustomerRating
+19:35:13.728 [main] INFO  - Sort By Filters applied successfully
+19:35:13.731 [main] INFO  - Starting test: extractStudyChairsDetails
+19:35:16.185 [main] INFO  - Product names and prices Retrieved successfully
+19:35:16.185 [main] INFO  - Added Header to excelData
+19:35:16.186 [main] INFO  - Product: Tauras Lite Breathable MeshMid Back Ergonomic Chair in Red Colour with price: ?5,499
+19:35:16.186 [main] INFO  - Product: Amaze Breathable Mesh Guest Chair in Black Colour with price: ?3,900
+19:35:16.186 [main] INFO  - Product: Leno Fabric Ergonomic Chair in Brown Colour with price: ?5,499
+19:35:16.264 [main] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+19:35:16.265 [main] INFO  - Successfully verified Excel file
+19:35:16.269 [main] INFO  - Closing WebDriver
+19:35:16.807 [main] INFO  - Browser closed successfully
+19:43:34.630 [main] INFO  - Browser initialized: chrome
+19:43:40.007 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:43:40.042 [main] INFO  - Initializing WebDriver and setting up the page objects
+19:43:40.137 [main] INFO  - Starting test: searchBookshelvesTest
+19:43:44.107 [main] INFO  - Search for 'bookshelves' performed successfully
+19:43:44.116 [main] INFO  - Starting test: applyFilterTest
+19:43:48.805 [main] INFO  - Price Filter applied successfully
+19:43:48.827 [main] INFO  - Starting test: sortByLowestPriceTest
+19:43:51.706 [main] INFO  - Sort by Filter applied successfully
+19:43:51.709 [main] INFO  - Starting test: extractBookshelfDetailsToExcelTest
+19:43:54.285 [main] INFO  - Retrieved product names and prices successfully
+19:43:54.285 [main] INFO  - Header added to excelData
+19:43:54.286 [main] INFO  - Added product: Trendlong Round Floating Book Shelf with price: ?999
+19:43:54.287 [main] INFO  - Added product: Captiver Wall Mount Book Shelf In Dark Acazia Finish with price: ?1,389
+19:43:54.288 [main] INFO  - Added product: Victor Book Shelf In Wenge Colour with price: ?1,389
+19:43:56.660 [main] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
+19:43:56.662 [main] INFO  - Excel file verified successfully
+19:43:56.669 [main] INFO  - Closing the WebDriver
+19:43:57.423 [main] INFO  - Browser closed successfully
+19:44:00.597 [main] INFO  - Browser initialized: chrome
+19:44:07.343 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:44:07.348 [main] INFO  - Initializing WebDriver and setting up the page objects
+19:44:07.378 [main] INFO  - Starting test: selectGiftCardTest
+19:44:08.488 [main] INFO  - Selected gift card successfully
+19:44:10.322 [main] INFO  - Starting test: fillGiftDetailsTest
+19:44:14.123 [main] INFO  - All data filled successfully
+19:44:14.129 [main] INFO  - Starting test: extractErrorMessagesToExcelTest
+19:44:14.130 [main] INFO  - Retrieved error messages successfully
+19:44:14.130 [main] INFO  - Header added to excelData succesfully
+19:44:14.416 [main] INFO  - Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
+19:44:14.416 [main] INFO  - Excel file verified successfully
+19:44:15.042 [main] INFO  - Quiting the WebDriver
+19:44:17.295 [main] INFO  - Browser closed successfully
+19:44:19.847 [main] INFO  - Browser initialized: chrome
+19:44:24.314 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:44:24.317 [main] INFO  - Initializing WebDriver and setting up page objects
+19:44:24.338 [main] INFO  - Starting test: MenuTest
+19:44:26.101 [main] INFO  - Starting test: extractMenuItemsToExcel
+19:44:27.876 [main] INFO  - Retrieved sub menu data successfully
+19:44:28.725 [main] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
+19:44:28.726 [main] INFO  - Excel file Verified Successfully
+19:44:28.729 [main] INFO  - Quiting the WebDriver
+19:44:29.085 [main] INFO  - Browser closed successfully
+19:44:31.176 [main] INFO  - Browser initialized: chrome
+19:44:35.688 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:44:35.690 [main] INFO  - Initializing the WebDriver and setting up the page objects
+19:44:35.700 [main] INFO  - Starting test: searchStudyChairs
+19:44:38.682 [main] INFO  - Search for 'study chairs' performed successfully
+19:44:38.688 [main] INFO  - Starting test: applyFiltersTest
+19:44:46.975 [main] INFO  - Price Filters applied successfully
+19:44:46.978 [main] INFO  - Starting test: sortByCustomerRating
+19:44:49.910 [main] INFO  - Sort By Filters applied successfully
+19:44:49.912 [main] INFO  - Starting test: extractStudyChairsDetails
+19:44:49.974 [main] INFO  - Product names and prices Retrieved successfully
+19:44:49.975 [main] INFO  - Added Header to excelData
+19:44:50.036 [main] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+19:44:50.038 [main] INFO  - Successfully verified Excel file
+19:44:50.041 [main] INFO  - Closing WebDriver
+19:44:50.555 [main] INFO  - Browser closed successfully
+19:45:40.721 [main] INFO  - Browser initialized: chrome
+19:45:45.891 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:45:45.934 [main] INFO  - Initializing WebDriver and setting up the page objects
+19:45:46.055 [main] INFO  - Starting test: searchBookshelvesTest
+19:45:50.331 [main] INFO  - Search for 'bookshelves' performed successfully
+19:45:50.341 [main] INFO  - Starting test: applyFilterTest
+19:45:54.774 [main] INFO  - Price Filter applied successfully
+19:45:54.785 [main] INFO  - Starting test: sortByLowestPriceTest
+19:45:57.437 [main] INFO  - Sort by Filter applied successfully
+19:45:57.440 [main] INFO  - Starting test: extractBookshelfDetailsToExcelTest
+19:45:59.925 [main] INFO  - Retrieved product names and prices successfully
+19:45:59.925 [main] INFO  - Header added to excelData
+19:45:59.925 [main] INFO  - Added product: Trendlong Round Floating Book Shelf with price: ?999
+19:45:59.927 [main] INFO  - Added product: Captiver Wall Mount Book Shelf In Dark Acazia Finish with price: ?1,389
+19:45:59.928 [main] INFO  - Added product: Victor Book Shelf In Wenge Colour with price: ?1,389
+19:46:02.010 [main] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
+19:46:02.011 [main] INFO  - Excel file verified successfully
+19:46:02.017 [main] INFO  - Closing the WebDriver
+19:46:02.675 [main] INFO  - Browser closed successfully
+19:46:04.955 [main] INFO  - Browser initialized: chrome
+19:46:09.550 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:46:09.553 [main] INFO  - Initializing WebDriver and setting up the page objects
+19:46:09.571 [main] INFO  - Starting test: selectGiftCardTest
+19:46:10.614 [main] INFO  - Selected gift card successfully
+19:46:12.710 [main] INFO  - Starting test: fillGiftDetailsTest
+19:46:15.763 [main] INFO  - All data filled successfully
+19:46:15.766 [main] INFO  - Starting test: extractErrorMessagesToExcelTest
+19:46:15.766 [main] INFO  - Retrieved error messages successfully
+19:46:15.766 [main] INFO  - Header added to excelData succesfully
+19:46:15.975 [main] INFO  - Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
+19:46:15.976 [main] INFO  - Excel file verified successfully
+19:46:16.448 [main] INFO  - Quiting the WebDriver
+19:46:16.896 [main] INFO  - Browser closed successfully
+19:46:18.280 [main] INFO  - Browser initialized: chrome
+19:46:22.845 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:46:22.848 [main] INFO  - Initializing WebDriver and setting up page objects
+19:46:22.867 [main] INFO  - Starting test: MenuTest
+19:46:24.622 [main] INFO  - Starting test: extractMenuItemsToExcel
+19:46:26.464 [main] INFO  - Retrieved sub menu data successfully
+19:46:27.287 [main] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
+19:46:27.288 [main] INFO  - Excel file Verified Successfully
+19:46:27.292 [main] INFO  - Quiting the WebDriver
+19:46:27.752 [main] INFO  - Browser closed successfully
+19:46:29.844 [main] INFO  - Browser initialized: chrome
+19:46:34.424 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:46:34.426 [main] INFO  - Initializing the WebDriver and setting up the page objects
+19:46:34.438 [main] INFO  - Starting test: searchStudyChairs
+19:46:37.199 [main] INFO  - Search for 'study chairs' performed successfully
+19:46:37.203 [main] INFO  - Starting test: applyFiltersTest
+19:46:46.005 [main] INFO  - Price Filters applied successfully
+19:46:46.014 [main] INFO  - Starting test: sortByCustomerRating
+19:46:49.173 [main] INFO  - Sort By Filters applied successfully
+19:46:49.181 [main] INFO  - Starting test: extractStudyChairsDetails
+19:46:51.448 [main] INFO  - Product names and prices Retrieved successfully
+19:46:51.449 [main] INFO  - Added Header to excelData
+19:46:51.449 [main] INFO  - Product: Tauras Lite Breathable MeshMid Back Ergonomic Chair in Red Colour with price: ?5,499
+19:46:51.449 [main] INFO  - Product: Amaze Breathable Mesh Guest Chair in Black Colour with price: ?3,900
+19:46:51.449 [main] INFO  - Product: Leno Fabric Ergonomic Chair in Brown Colour with price: ?5,499
+19:46:51.511 [main] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+19:46:51.512 [main] INFO  - Successfully verified Excel file
+19:46:51.515 [main] INFO  - Closing WebDriver
+19:46:51.987 [main] INFO  - Browser closed successfully
+19:47:57.933 [main] INFO  - Browser initialized: chrome
+19:48:21.261 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:48:21.294 [main] INFO  - Initializing WebDriver and setting up the page objects
+19:48:21.382 [main] INFO  - Starting test: searchBookshelvesTest
+19:48:23.900 [main] INFO  - Search for 'bookshelves' performed successfully
+19:48:23.905 [main] INFO  - Starting test: applyFilterTest
+19:48:28.348 [main] INFO  - Price Filter applied successfully
+19:48:28.362 [main] INFO  - Starting test: sortByLowestPriceTest
+19:48:30.457 [main] INFO  - Sort by Filter applied successfully
+19:48:30.461 [main] INFO  - Starting test: extractBookshelfDetailsToExcelTest
+19:48:32.850 [main] INFO  - Retrieved product names and prices successfully
+19:48:32.850 [main] INFO  - Header added to excelData
+19:48:34.747 [main] INFO  - Data written to Excel file: Output_Excel/BookshelvesData.xlsx
+19:48:34.748 [main] INFO  - Excel file verified successfully
+19:48:34.752 [main] INFO  - Closing the WebDriver
+19:48:35.409 [main] INFO  - Browser closed successfully
+19:48:37.934 [main] INFO  - Browser initialized: chrome
+19:48:43.590 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:48:43.594 [main] INFO  - Initializing WebDriver and setting up the page objects
+19:48:43.604 [main] INFO  - Starting test: selectGiftCardTest
+19:48:44.413 [main] INFO  - Selected gift card successfully
+19:48:46.413 [main] INFO  - Starting test: fillGiftDetailsTest
+19:48:49.411 [main] INFO  - All data filled successfully
+19:48:49.413 [main] INFO  - Starting test: extractErrorMessagesToExcelTest
+19:48:49.413 [main] INFO  - Retrieved error messages successfully
+19:48:49.413 [main] INFO  - Header added to excelData succesfully
+19:48:49.613 [main] INFO  - Data written to Excel file: Output_Excel/GiftCardErrors.xlsx
+19:48:49.613 [main] INFO  - Excel file verified successfully
+19:48:50.139 [main] INFO  - Quiting the WebDriver
+19:48:50.583 [main] INFO  - Browser closed successfully
+19:48:52.728 [main] INFO  - Browser initialized: chrome
+19:48:56.909 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:48:56.911 [main] INFO  - Initializing WebDriver and setting up page objects
+19:48:56.930 [main] INFO  - Starting test: MenuTest
+19:48:58.560 [main] INFO  - Starting test: extractMenuItemsToExcel
+19:49:00.294 [main] INFO  - Retrieved sub menu data successfully
+19:49:01.103 [main] INFO  - Data written to Excel file: Output_Excel/MenuData.xlsx
+19:49:01.105 [main] INFO  - Excel file Verified Successfully
+19:49:01.109 [main] INFO  - Quiting the WebDriver
+19:49:01.611 [main] INFO  - Browser closed successfully
+19:49:03.605 [main] INFO  - Browser initialized: chrome
+19:49:07.888 [main] INFO  - Navigated to URL: https://www.pepperfry.com
+19:49:07.892 [main] INFO  - Initializing the WebDriver and setting up the page objects
+19:49:07.900 [main] INFO  - Starting test: searchStudyChairs
+19:49:10.512 [main] INFO  - Search for 'study chairs' performed successfully
+19:49:10.517 [main] INFO  - Starting test: applyFiltersTest
+19:49:17.915 [main] INFO  - Price Filters applied successfully
+19:49:17.920 [main] INFO  - Starting test: sortByCustomerRating
+19:49:19.771 [main] INFO  - Sort By Filters applied successfully
+19:49:19.776 [main] INFO  - Starting test: extractStudyChairsDetails
+19:49:22.148 [main] INFO  - Product names and prices Retrieved successfully
+19:49:22.148 [main] INFO  - Added Header to excelData
+19:49:22.209 [main] INFO  - Written Data to Excel file: Output_Excel/StudyChairsData.xlsx
+19:49:22.210 [main] INFO  - Successfully verified Excel file
+19:49:22.214 [main] INFO  - Closing WebDriver
+19:49:22.716 [main] INFO  - Browser closed successfully
