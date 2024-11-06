@@ -5,6 +5,7 @@ import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -53,7 +54,7 @@ public class BookshelvesPage extends BasePage {
 
    
 
-    public void searchForBookshelves(String query) throws IOException {           
+    public void searchForBookshelves(String query) throws IOException {            
     	JavascriptExecutor js = (JavascriptExecutor) driver;
     	js.executeScript("document.body.style.zoom='75%'");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
@@ -69,7 +70,7 @@ public class BookshelvesPage extends BasePage {
         js.executeScript("window.scrollBy(0,150)");
     }
 
-    public boolean isSearchtextDisplayed() {                          
+    public boolean isSearchtextDisplayed() {                           
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     		WebElement filterBadg = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("search")));
@@ -78,15 +79,20 @@ public class BookshelvesPage extends BasePage {
     		return false;
     	}
 	}
-    public void applyFilter() throws IOException {                                
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+    public void applyFilter() throws IOException {    
+    	JavascriptExecutor js = (JavascriptExecutor) driver;
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        try {
+            wait.until(ExpectedConditions.elementToBeClickable(filterButton)).click();
+        } catch (ElementClickInterceptedException e) {
 
-        wait.until(ExpectedConditions.elementToBeClickable(filterButton)).click();
+            js.executeScript("arguments[0].click();", filterButton);
+        }
         ScreenshotUtility.captureScreenshot(driver, "FilterApply");
     }
 
     
-    public boolean isPriceFilterDisplayed() {             
+    public boolean isPriceFilterDisplayed() {            
         try {
         	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
             WebElement filterBadge = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(), ' Price ')]")));
@@ -97,7 +103,7 @@ public class BookshelvesPage extends BasePage {
     }
     
 
-    public void applyPriceFilter(String maxPrice) throws IOException {                   
+    public void applyPriceFilter(String maxPrice) throws IOException {                      
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         
 
@@ -116,7 +122,7 @@ public class BookshelvesPage extends BasePage {
     
 
     
-    public boolean isApplybtnDisplayed() {             
+    public boolean isApplybtnDisplayed() {              
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     		WebElement filterBadg = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='ng-star-inserted' and contains(text(), 'APPLY')]")));
@@ -135,7 +141,7 @@ public class BookshelvesPage extends BasePage {
     		return false;
     	}
 	}
-    public void sortByLowestPrice() throws IOException {                                   
+    public void sortByLowestPrice() throws IOException {                                  
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         
         wait.until(ExpectedConditions.elementToBeClickable(sortDropdown)).click();
@@ -151,17 +157,12 @@ public class BookshelvesPage extends BasePage {
     
 
 
-    public List<String> getProductNames() {                                        
+    public List<String> getProductNames() {                                      
         return productNames.stream().map(WebElement::getText).toList();
     }
  
-    public List<String> getProductPrices() {                                       
+    public List<String> getProductPrices() {                                         
         return productPrices.stream().map(WebElement::getText).toList();
     }
-
-	
-
-	
-
 	
 }

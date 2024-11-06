@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -38,7 +39,7 @@ public class MenusPage extends BasePage {
     		return false;
     	}
 	}
-    public void hoverOverLuxuryMenu() throws InterruptedException {                       
+    public void hoverOverLuxuryMenu() throws InterruptedException {                    
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(luxuryMenu));
         actions.moveToElement(luxuryMenu).perform();
@@ -54,7 +55,7 @@ public class MenusPage extends BasePage {
     	}
 	}
 
-    public void hoverAndClickSofasMenu() throws InterruptedException {                     
+    public void hoverAndClickSofasMenu() throws InterruptedException {                  
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         
 
@@ -64,9 +65,12 @@ public class MenusPage extends BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(sofasMenu)).click();
     }
 
-    public List<WebElement> getMenuItems() {                                               
-    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    public List<WebElement> getMenuItems() {         
+    	JavascriptExecutor js = (JavascriptExecutor) driver;
+    	js.executeScript("document.body.style.zoom='33%'");
+    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(100));
+    	wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//*[@class='clip-catg-title text-sm font-medium text-truncate-2 ctg-white-space paddingTop-8']")));
     	wait.until(ExpectedConditions.visibilityOfAllElements(menuItems));
         return menuItems;
-    }
+    }	
 }

@@ -58,12 +58,15 @@ public class StudyChairsPage extends BasePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         
         wait.until(ExpectedConditions.visibilityOf(searchBox)).sendKeys(keyword);
-        wait.until(ExpectedConditions.elementToBeClickable(searchButton)).click();
-        
+        try  {
+            wait.until(ExpectedConditions.elementToBeClickable(searchButton)).click();
+        } catch (ElementClickInterceptedException e) {
 
+            js.executeScript("arguments[0].click();", searchButton);
+        }
     }
     
-    public boolean isSearchtextDisplayed() {                           
+    public boolean isSearchtextDisplayed() {                        
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     		WebElement filterBadg = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("search")));
@@ -73,7 +76,7 @@ public class StudyChairsPage extends BasePage {
     	}
 	}
 
-    public void applyFilter() {                                   
+    public void applyFilter() {                                
     JavascriptExecutor js = (JavascriptExecutor) driver;
     	js.executeScript("document.body.style.zoom='50%'");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
@@ -97,7 +100,7 @@ public class StudyChairsPage extends BasePage {
         }
     }
     
-    public boolean isApplybtnDisplayed() {               
+    public boolean isApplybtnDisplayed() {              
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     		WebElement filterBadg = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='ng-star-inserted' and contains(text(), 'APPLY')]")));
@@ -132,7 +135,7 @@ public class StudyChairsPage extends BasePage {
         js.executeScript("window.scrollBy(0,650)");
     }
     
-    public boolean isSortbyfilterDisplayed() {                                                      
+    public boolean isSortbyfilterDisplayed() {                                                   
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     		WebElement filterBadg = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='dropdown-btn']")));
@@ -142,7 +145,7 @@ public class StudyChairsPage extends BasePage {
     	}
 	}
 
-    public void sortByCustomerRatings() throws IOException {                      
+    public void sortByCustomerRatings() throws IOException {                     
     JavascriptExecutor js = (JavascriptExecutor) driver;
     	js.executeScript("document.body.style.zoom='33%'");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
@@ -161,13 +164,11 @@ public class StudyChairsPage extends BasePage {
         ScreenshotUtility.captureScreenshot(driver, "StudyChairsPictures");
     }
 
-    public List<String> getProductName() {                                         
+    public List<String> getProductName() {                                       
         return productName.stream().map(WebElement::getText).toList();
     }
 
     public List<String> getProductPrice() {                                      
         return productPrice.stream().map(WebElement::getText).toList();
-    }
-   
-    
+    }   
 }

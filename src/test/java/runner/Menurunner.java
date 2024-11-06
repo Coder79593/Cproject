@@ -9,7 +9,6 @@ import io.cucumber.testng.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features/Menu.feature",
-		//features = "src/test/resources/features",
     glue = {"stepdefinition","hooks"},
     plugin = {"pretty", "html:reports3/Menu-cucumber-reports.html",
     		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
